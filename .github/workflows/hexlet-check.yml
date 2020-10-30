@@ -15,6 +15,5 @@ jobs:
         uses: hexlet/project-action@release
                         
       - name: run linter check
-        run: npx eslint .   
-      
+        run: npx eslint .      
 
