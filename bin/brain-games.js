@@ -6,3 +6,4 @@ console.log('Welcome to the Brain Games!');
 askName();
 
 
+123123 12
