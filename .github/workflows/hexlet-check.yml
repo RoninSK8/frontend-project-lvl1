@@ -13,6 +13,7 @@ jobs:
                 
       - name: run linter check
         run: make lint
+        
       
       - name: greet
         run: echo 'Hello!'
