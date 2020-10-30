@@ -15,6 +15,7 @@ jobs:
         uses: hexlet/project-action@release
       - name: run linter check
         run: make lint
+        
       - name: console log
-        run: echo 'Hello, World!'
+        run: echo 'Hello, World1!'
         
