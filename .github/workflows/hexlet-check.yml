@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v2
                                 
       - name: run linter check
-        run: make lint 
+        run: make lint
 
