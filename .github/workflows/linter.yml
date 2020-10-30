@@ -21,6 +21,6 @@ jobs:
         run: npm install
 
       - name: Run linters
-        run: npx eslint .
+        run: make lint
         
         
