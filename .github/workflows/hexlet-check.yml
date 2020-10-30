@@ -10,12 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-                
+                                
       - name: run linter check
-        run: make lint
-        
-      
-      - name: greet
-        run: echo 'Hello!'
-        
-        
+        run: npx eslint .      
+
