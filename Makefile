@@ -9,3 +9,6 @@ publish:
 
 make lint:
 	node_modules/.bin/eslint .
+
+brain-even:
+	node bin/brain-even.js
