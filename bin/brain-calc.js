@@ -11,6 +11,7 @@ async function calculationGame() {
     const randomNumber1 = Math.floor(Math.random() * (100 - 1)) + 1;
     const randomNumber2 = Math.floor(Math.random() * (100 - 1)) + 1;
     const operators = '+-*';
+    // eslint-disable-next-line space-infix-ops
     const randomOperator = operators[Math.floor(Math.random()*operators.length)];
     let rightResult;
     switch (randomOperator) {
@@ -38,9 +39,5 @@ async function calculationGame() {
       console.log(`Congratulations, ${name}!`);
     }
   }
-  // const randomNumber = Math.floor(Math.random() * (100 - 1)) + 1;
-  // const operators = '+-*';
-  // const randomOperator = operators[Math.floor(Math.random()*operators.length)];
-  // const randomExpression = '${randomNumber} ${randomOperator} ${randomNumber}';
 }
 calculationGame();
