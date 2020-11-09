@@ -5,8 +5,8 @@
 
 ![hexlet-check](https://github.com/RoninSK8/frontend-project-lvl1/workflows/hexlet-check/badge.svg)
 
-Brain-even game demo
+### Brain-even game demo
 [![asciicast](https://asciinema.org/a/370214.svg)](https://asciinema.org/a/370214)
 
-Brain-calc game demo
+### Brain-calc game demo
 [![asciicast](https://asciinema.org/a/371734.svg)](https://asciinema.org/a/371734)
