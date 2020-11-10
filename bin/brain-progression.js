@@ -18,7 +18,7 @@ async function isMissingNumber() {
     }
     const rightAnswer = resultArray[indexOfSkippedItem];
     resultArray[indexOfSkippedItem] = '..';
-    console.log(`Question: ${resultArray}`);
+    console.log(`Question: ${resultArray.join(' ')}`);
     // eslint-disable-next-line no-await-in-loop
     const answer = await promptly.prompt('Your answer: ');
     if (rightAnswer === +answer) {
