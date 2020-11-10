@@ -1,5 +1,5 @@
 ### Hexlet tests and linter status:
-![hexlet-check](https://github.com/RoninSK8/frontend-project-lvl1/workflows/linter.yml/badge.svg)
+![hexlet-check](https://github.com/RoninSK8/frontend-project-lvl1/workflows/Lint/badge.svg)
 
 <a href="https://codeclimate.com/github/RoninSK8/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/4123da168d74bb9bbbff/maintainability" /></a>
 
