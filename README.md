@@ -10,3 +10,12 @@
 
 ### Brain-calc game demo
 [![asciicast](https://asciinema.org/a/371734.svg)](https://asciinema.org/a/371734)
+
+### Brain-prime game demo
+[![asciicast](https://asciinema.org/a/372652.svg)](https://asciinema.org/a/372652)
+
+### Brain-progression game demo
+[![asciicast](https://asciinema.org/a/372653.svg)](https://asciinema.org/a/372653)
+
+### Brain-gcd game demo
+[![asciicast](https://asciinema.org/a/372654.svg)](https://asciinema.org/a/372654)
