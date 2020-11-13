@@ -1,9 +1,7 @@
-#!/usr/bin/env node
 /* eslint-disable no-await-in-loop */
-/* eslint-disable no-undef */
 import promptly from 'promptly';
 
-async function game() {
+async function game(rules, generateTaskAndCorrectAnswer) {
   console.log('Welcome to the Brain Games!');
   const name = await promptly.prompt('May I have your name?');
   console.log(`Hello, ${name}!`);
