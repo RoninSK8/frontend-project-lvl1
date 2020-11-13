@@ -11,7 +11,8 @@ const generateTaskAndCorrectAnswer = () => {
     }
     return greatestCommonDivisor(b, a % b);
   };
-  result.push(String(greatestCommonDivisor(randomNumber1, randomNumber2)));
+  const correctAnswer = greatestCommonDivisor(randomNumber1, randomNumber2);
+  result.push(String(correctAnswer));
   return result;
 };
 
