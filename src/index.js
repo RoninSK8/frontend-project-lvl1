@@ -11,9 +11,10 @@ async function game() {
   let scoreCount = 0;
   const scoreToWin = 3;
   while (scoreCount < scoreToWin) {
+    const [task, correctAnswer] = generateTaskAndCorrectAnswer();
     console.log(`Question: ${task}`);
     const answer = await promptly.prompt('Your answer: ');
-    if (correctAnswer === +answer) {
+    if (correctAnswer === answer) {
       console.log('Correct!');
       scoreCount += 1;
     } else {
