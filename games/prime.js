@@ -1,8 +1,8 @@
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const generateTaskAndCorrectAnswer = () => {
   const result = [];
-  const randomNumber = Math.floor(Math.random() * (100 - 1)) + 1;
-  const task = randomNumber;
+  const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+  const task = generateNumber(1, 100);
   result.push(task);
   const isPrime = (num) => {
     if (num <= 1) {

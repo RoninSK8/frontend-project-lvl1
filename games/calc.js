@@ -1,8 +1,9 @@
 const rules = 'What is the result of the expression?';
 const generateTaskAndCorrectAnswer = () => {
   const result = [];
-  const randomNumber1 = Math.floor(Math.random() * (100 - 1)) + 1;
-  const randomNumber2 = Math.floor(Math.random() * (100 - 1)) + 1;
+  const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+  const randomNumber1 = generateNumber(1, 100);
+  const randomNumber2 = generateNumber(1, 100);
   const operators = '+-*';
   const randomOperator = operators[Math.floor(Math.random() * operators.length)];
   const task = `${randomNumber1} ${randomOperator} ${randomNumber2}`;

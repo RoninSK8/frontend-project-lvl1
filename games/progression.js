@@ -1,10 +1,11 @@
 const rules = 'What number is missing in the progression?';
 const generateTaskAndCorrectAnswer = () => {
   const result = [];
-  const numberOfItems = Math.floor(Math.random() * (10 - 5)) + 5;
-  const startingItem = Math.floor(Math.random() * (50 - 1)) + 1;
-  const sizeOfStep = Math.floor(Math.random() * (10 - 1)) + 1;
-  const indexOfSkippedItem = Math.floor(Math.random() * numberOfItems);
+  const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+  const numberOfItems = generateNumber(5, 10);
+  const startingItem = generateNumber(1, 50);
+  const sizeOfStep = generateNumber(1, 10);
+  const indexOfSkippedItem = generateNumber(0, numberOfItems);
   const resultArray = [];
   for (let i = 1; i <= numberOfItems; i += 1) {
     resultArray.push(startingItem + (sizeOfStep * i));
