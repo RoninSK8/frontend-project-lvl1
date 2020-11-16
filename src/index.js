@@ -1,4 +1,3 @@
-/* eslint-disable no-await-in-loop */
 import promptly from 'promptly';
 
 async function game(rules, generateTaskAndCorrectAnswer) {
