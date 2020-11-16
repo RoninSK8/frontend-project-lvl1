@@ -1,12 +1,15 @@
 env:
   es2020: true
   node: true
+
 extends:
   - 'airbnb-base'
+
 parserOptions:
   ecmaVersion: 12
   sourceType: module
-rules: {
-        'no-console': 'off',
-        "import/extensions": 0,
-    }
+
+rules:
+  no-console: 0
+  import/extensions: 0
+  no-await-in-loop: 0
