@@ -4,8 +4,8 @@ const generateTaskAndCorrectAnswer = () => {
   const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
   const task = generateNumber(1, 100);
   result.push(task);
-  const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
-  const correctAnswer = isEven(task);
+  const isEven = (number) => number % 2 === 0;
+  const correctAnswer = isEven(task) ? 'yes' : 'no';
   result.push(correctAnswer);
   return result;
 };
