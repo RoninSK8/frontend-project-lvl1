@@ -16,9 +16,11 @@ const generateTaskAndCorrectAnswer = () => {
     case '-':
       correctAnswer = randomNumber1 - randomNumber2;
       break;
-    default:
+    case '*':
       correctAnswer = randomNumber1 * randomNumber2;
       break;
+    default:
+      throw new Error(`Unknown operator: ${randomOperator}`);
   }
   result.push(String(correctAnswer));
   return result;
