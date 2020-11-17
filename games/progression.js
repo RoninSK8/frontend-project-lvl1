@@ -1,7 +1,9 @@
 const rules = 'What number is missing in the progression?';
+
+const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+
 const generateTaskAndCorrectAnswer = () => {
   const result = [];
-  const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
   const numberOfItems = generateNumber(5, 10);
   const startingItem = generateNumber(1, 50);
   const sizeOfStep = generateNumber(1, 10);

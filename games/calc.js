@@ -1,11 +1,13 @@
 const rules = 'What is the result of the expression?';
+
+const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+
 const generateTaskAndCorrectAnswer = () => {
   const result = [];
-  const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
   const randomNumber1 = generateNumber(1, 100);
   const randomNumber2 = generateNumber(1, 100);
   const operators = '+-*';
-  const randomOperator = operators[Math.floor(Math.random() * operators.length)];
+  const randomOperator = operators[generateNumber(0, operators.length)];
   const task = `${randomNumber1} ${randomOperator} ${randomNumber2}`;
   result.push(task);
   let correctAnswer;
