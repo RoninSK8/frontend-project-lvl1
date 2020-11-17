@@ -6,19 +6,19 @@ const generateTaskAndCorrectAnswer = () => {
   result.push(task);
   const isPrime = (num) => {
     if (num <= 1) {
-      return 'no';
+      return false;
     }
     if (num === 2 || num === 3) {
-      return 'yes';
+      return true;
     }
     for (let i = 2; i <= num / 2; i += 1) {
       if (num % i === 0) {
-        return 'no';
+        return false;
       }
     }
-    return 'yes';
+    return true;
   };
-  const correctAnswer = isPrime(task);
+  const correctAnswer = isPrime(task) ? 'yes' : 'no';
   result.push(String(correctAnswer));
   return result;
 };
