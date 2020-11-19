@@ -1,6 +1,6 @@
-const rules = 'What number is missing in the progression?';
+import generateNumber from '../src/utils.js';
 
-const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const rules = 'What number is missing in the progression?';
 
 const generateTaskAndCorrectAnswer = () => {
   const result = [];

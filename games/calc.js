@@ -1,6 +1,6 @@
-const rules = 'What is the result of the expression?';
+import generateNumber from '../src/utils.js';
 
-const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const rules = 'What is the result of the expression?';
 
 const generateTaskAndCorrectAnswer = () => {
   const result = [];

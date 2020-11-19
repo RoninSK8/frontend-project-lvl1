@@ -1,6 +1,6 @@
-const rules = 'Find the greatest common divisor of given numbers.';
+import generateNumber from '../src/utils.js';
 
-const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const rules = 'Find the greatest common divisor of given numbers.';
 
 const greatestCommonDivisor = (a, b) => {
   if (b === 0) {

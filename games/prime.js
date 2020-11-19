@@ -1,6 +1,6 @@
-const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+import generateNumber from '../src/utils.js';
 
-const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   if (num <= 1) {

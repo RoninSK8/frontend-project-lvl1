@@ -1,6 +1,6 @@
-const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+import generateNumber from '../src/utils.js';
 
-const generateNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (number) => number % 2 === 0;
 
 const generateTaskAndCorrectAnswer = () => {
