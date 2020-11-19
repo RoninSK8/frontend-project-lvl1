@@ -15,9 +15,9 @@ async function game(rules, generateTaskAndCorrectAnswer) {
       console.log('Correct!');
       scoreCount += 1;
     } else {
-      scoreCount = 0;
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
+      return;
     }
   }
   console.log(`Congratulations, ${name}!`);
