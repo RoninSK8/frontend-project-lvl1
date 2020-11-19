@@ -6,7 +6,7 @@ This pack contains 5 console games:
 - Brain-progression: Find the missing number in the progression.
 - Brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 
-# Linter tests and Code Climate status:
+#### Linter tests and Code Climate status:
 ![hexlet-check](https://github.com/RoninSK8/frontend-project-lvl1/workflows/Lint/badge.svg)
 
 <a href="https://codeclimate.com/github/RoninSK8/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/4123da168d74bb9bbbff/maintainability" /></a>
@@ -14,38 +14,38 @@ This pack contains 5 console games:
 ## Getting started
 
 Installing a pack from Github:
-`
+```
 $ git clone https://github.com/RoninSK8/frontend-project-lvl1.git
 $ cd frontend-project-lvl1
 $ make install
-`
+```
 
-### Brain-even game demo
+## Brain-even game demo
 `
-brain-even
+$ brain-even
 `
 [![asciicast](https://asciinema.org/a/370214.svg)](https://asciinema.org/a/370214)
 
-### Brain-calc game demo
+## Brain-calc game demo
 `
-brain-calc
+$ brain-calc
 `
 [![asciicast](https://asciinema.org/a/371734.svg)](https://asciinema.org/a/371734)
 
 ### Brain-gcd game demo
 `
-brain-gcd
+$ brain-gcd
 `
 [![asciicast](https://asciinema.org/a/372654.svg)](https://asciinema.org/a/372654)
 
-### Brain-progression game demo
+## Brain-progression game demo
 `
-brain-progression
+$ brain-progression
 `
 [![asciicast](https://asciinema.org/a/372653.svg)](https://asciinema.org/a/372653)
 
-### Brain-prime game demo
+## Brain-prime game demo
 `
-brain-prime
+$ brain-prime
 `
 [![asciicast](https://asciinema.org/a/372652.svg)](https://asciinema.org/a/372652)
