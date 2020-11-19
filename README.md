@@ -24,28 +24,33 @@ $ make install
 `
 $ brain-even
 `
-[![asciicast](https://asciinema.org/a/370214.svg)](https://asciinema.org/a/370214)
+
+[![asciicast](https://asciinema.org/a/373845.svg)](https://asciinema.org/a/373845)
 
 ## Brain-calc game demo
 `
 $ brain-calc
 `
-[![asciicast](https://asciinema.org/a/371734.svg)](https://asciinema.org/a/371734)
+
+[![asciicast](https://asciinema.org/a/373839.svg)](https://asciinema.org/a/373839)
 
 ### Brain-gcd game demo
 `
 $ brain-gcd
 `
-[![asciicast](https://asciinema.org/a/372654.svg)](https://asciinema.org/a/372654)
+
+[![asciicast](https://asciinema.org/a/373847.svg)](https://asciinema.org/a/373847)
 
 ## Brain-progression game demo
 `
 $ brain-progression
 `
-[![asciicast](https://asciinema.org/a/372653.svg)](https://asciinema.org/a/372653)
+
+[![asciicast](https://asciinema.org/a/373848.svg)](https://asciinema.org/a/373848)
 
 ## Brain-prime game demo
 `
 $ brain-prime
 `
-[![asciicast](https://asciinema.org/a/372652.svg)](https://asciinema.org/a/372652)
+
+[![asciicast](https://asciinema.org/a/373849.svg)](https://asciinema.org/a/373849)
