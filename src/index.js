@@ -1,6 +1,6 @@
 import promptly from 'promptly';
 
-async function game(rules, generateTaskAndCorrectAnswer) {
+async function play(rules, generateTaskAndCorrectAnswer) {
   console.log('Welcome to the Brain Games!');
   const name = await promptly.prompt('May I have your name?');
   console.log(`Hello, ${name}!`);
@@ -22,4 +22,4 @@ async function game(rules, generateTaskAndCorrectAnswer) {
   }
   console.log(`Congratulations, ${name}!`);
 }
-export default game;
+export default play;
