@@ -1,3 +1,9 @@
+![hexlet-check](https://github.com/RoninSK8/frontend-project-lvl1/workflows/Lint/badge.svg)
+
+![hexlet-check](https://github.com/RoninSK8/frontend-project-lvl1/workflows/hexlet-check/badge.svg)
+
+<a href="https://codeclimate.com/github/RoninSK8/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/4123da168d74bb9bbbff/maintainability" /></a>
+
 # Brain games
 This pack contains 5 console games:
 - Brain-even: Answer "yes" if the number is even, otherwise answer "no".
@@ -5,11 +11,6 @@ This pack contains 5 console games:
 - Brain-gcd: Find the greatest common divisor of given numbers.
 - Brain-progression: Find the missing number in the progression.
 - Brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
-
-#### Linter tests and Code Climate status:
-![hexlet-check](https://github.com/RoninSK8/frontend-project-lvl1/workflows/Lint/badge.svg)
-
-<a href="https://codeclimate.com/github/RoninSK8/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/4123da168d74bb9bbbff/maintainability" /></a>
 
 ## Getting started
 
