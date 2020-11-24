@@ -1,6 +1,6 @@
 import generateNumber from '../src/utils.js';
 
-const rules = 'Find the greatest common divisor of given numbers.';
+const rule = 'Find the greatest common divisor of given numbers.';
 
 const greatestCommonDivisor = (a, b) => {
   if (b === 0) {
@@ -20,4 +20,4 @@ const generateTaskAndCorrectAnswer = () => {
   return result;
 };
 
-export { rules, generateTaskAndCorrectAnswer };
+export { rule, generateTaskAndCorrectAnswer };

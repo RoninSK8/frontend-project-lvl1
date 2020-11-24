@@ -1,6 +1,6 @@
 import generateNumber from '../src/utils.js';
 
-const rules = 'What is the result of the expression?';
+const rule = 'What is the result of the expression?';
 
 const generateTaskAndCorrectAnswer = () => {
   const result = [];
@@ -27,4 +27,4 @@ const generateTaskAndCorrectAnswer = () => {
   result.push(String(correctAnswer));
   return result;
 };
-export { rules, generateTaskAndCorrectAnswer };
+export { rule, generateTaskAndCorrectAnswer };

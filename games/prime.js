@@ -1,6 +1,6 @@
 import generateNumber from '../src/utils.js';
 
-const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   if (num <= 1) {
@@ -26,4 +26,4 @@ const generateTaskAndCorrectAnswer = () => {
   return result;
 };
 
-export { rules, generateTaskAndCorrectAnswer };
+export { rule, generateTaskAndCorrectAnswer };

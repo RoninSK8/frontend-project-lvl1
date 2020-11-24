@@ -1,10 +1,10 @@
 import promptly from 'promptly';
 
-async function play(rules, generateTaskAndCorrectAnswer) {
+async function play(rule, generateTaskAndCorrectAnswer) {
   console.log('Welcome to the Brain Games!');
   const name = await promptly.prompt('May I have your name?');
   console.log(`Hello, ${name}!`);
-  console.log(rules);
+  console.log(rule);
   let scoreCount = 0;
   const scoreToWin = 3;
   while (scoreCount < scoreToWin) {

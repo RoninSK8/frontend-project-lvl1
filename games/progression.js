@@ -1,6 +1,6 @@
 import generateNumber from '../src/utils.js';
 
-const rules = 'What number is missing in the progression?';
+const rule = 'What number is missing in the progression?';
 
 const generateTaskAndCorrectAnswer = () => {
   const result = [];
@@ -20,4 +20,4 @@ const generateTaskAndCorrectAnswer = () => {
   return result;
 };
 
-export { rules, generateTaskAndCorrectAnswer };
+export { rule, generateTaskAndCorrectAnswer };
