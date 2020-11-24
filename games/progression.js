@@ -8,13 +8,13 @@ const generateTaskAndCorrectAnswer = () => {
   const startingItem = generateNumber(1, 50);
   const sizeOfStep = generateNumber(1, 10);
   const indexOfSkippedItem = generateNumber(0, numberOfItems);
-  const resultArray = [];
+  const progression = [];
   for (let i = 1; i <= numberOfItems; i += 1) {
-    resultArray.push(startingItem + (sizeOfStep * i));
+    progression.push(startingItem + (sizeOfStep * i));
   }
-  const correctAnswer = resultArray[indexOfSkippedItem];
-  resultArray[indexOfSkippedItem] = '..';
-  const task = `${resultArray.join(' ')}`;
+  const correctAnswer = progression[indexOfSkippedItem];
+  progression[indexOfSkippedItem] = '..';
+  const task = progression.join(' ');
   result.push(task);
   result.push(String(correctAnswer));
   return result;
