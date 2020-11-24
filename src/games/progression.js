@@ -1,4 +1,5 @@
-import generateNumber from '../src/utils.js';
+import play from '../index.js';
+import generateNumber from '../utils.js';
 
 const rule = 'What number is missing in the progression?';
 
@@ -20,4 +21,4 @@ const generateTaskAndCorrectAnswer = () => {
   return result;
 };
 
-export { rule, generateTaskAndCorrectAnswer };
+export default () => play(rule, generateTaskAndCorrectAnswer);

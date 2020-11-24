@@ -1,4 +1,5 @@
-import generateNumber from '../src/utils.js';
+import play from '../index.js';
+import generateNumber from '../utils.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -26,4 +27,4 @@ const generateTaskAndCorrectAnswer = () => {
   return result;
 };
 
-export { rule, generateTaskAndCorrectAnswer };
+export default () => play(rule, generateTaskAndCorrectAnswer);

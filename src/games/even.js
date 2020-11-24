@@ -1,4 +1,5 @@
-import generateNumber from '../src/utils.js';
+import play from '../index.js';
+import generateNumber from '../utils.js';
 
 const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (number) => number % 2 === 0;
@@ -9,4 +10,4 @@ const generateTaskAndCorrectAnswer = () => {
   return [task, correctAnswer];
 };
 
-export { rule, generateTaskAndCorrectAnswer };
+export default () => play(rule, generateTaskAndCorrectAnswer);

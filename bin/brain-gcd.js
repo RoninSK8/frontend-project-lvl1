@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { rule, generateTaskAndCorrectAnswer } from '../games/gcd.js';
-import play from '../src/index.js';
+import playGcd from '../src/games/gcd.js';
 
-play(rule, generateTaskAndCorrectAnswer);
+playGcd();

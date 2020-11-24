@@ -1,4 +1,5 @@
-import generateNumber from '../src/utils.js';
+import play from '../index.js';
+import generateNumber from '../utils.js';
 
 const rule = 'What is the result of the expression?';
 
@@ -27,4 +28,4 @@ const generateTaskAndCorrectAnswer = () => {
   result.push(String(correctAnswer));
   return result;
 };
-export { rule, generateTaskAndCorrectAnswer };
+export default () => play(rule, generateTaskAndCorrectAnswer);
